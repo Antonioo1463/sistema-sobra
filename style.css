@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+/* A nossa caixa principal que agrupa o título, o valor e o botão */
+.container-sobra {
+
+    position: relative; 
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Estilo da variável dinâmica (R$ 0,00) */
+#valor-lista {
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    color: #333333;
+}
+
+/* Estilos visuais e estruturais do botão */
+.botao-listas {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
+    color: #2e7d32;
+    font-size: 16px;
+    cursor: pointer;
+
+    /* Posicionamento do botão */
+    position: absolute;
+    top: 250px;
+    left: 30%;
+}
